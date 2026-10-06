@@ -1,0 +1,3 @@
+const {app,BrowserWindow,ipcMain}=require('electron');const path=require('node:path');let window;const timeout=setTimeout(()=>{console.error('Artwork check timed out');app.exit(1);},30000);
+ipcMain.on('result',(_e,r)=>{clearTimeout(timeout);console.log(r.message);app.exit(r.ok?0:1);});
+app.whenReady().then(()=>{window=new BrowserWindow({show:false,webPreferences:{preload:path.join(__dirname,'preload.js'),sandbox:true,contextIsolation:true,nodeIntegration:false}});window.loadFile(path.join(__dirname,'artwork.html'));window.webContents.on('console-message',(_e,...args)=>console.log(...args));});

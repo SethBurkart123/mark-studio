@@ -1,0 +1,24 @@
+{
+  "name": "mark-studio",
+  "productName": "Mark Studio",
+  "version": "1.3.3",
+  "description": "Simple offline artwork preparation and control for ThorX6-compatible dot-peen engravers",
+  "main": "main.js",
+  "author": "Mark Studio contributors",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "check": "node check.js",
+    "build": "node build.js",
+    "check:artwork": "electron checks/browser-check.js"
+  },
+  "dependencies": {
+    "serialport": "13.0.0",
+    "paper": "0.12.18",
+    "imagetracerjs": "1.2.6"
+  },
+  "devDependencies": {
+    "electron": "44.5.1",
+    "@electron/packager": "20.3.0"
+  }
+}
