@@ -11,7 +11,7 @@ This project is independent and is not affiliated with or endorsed by VEVOR. Com
 
 ## Download
 
-Download the latest macOS, Windows, Linux, or source package from [Releases](https://github.com/SethBurkart123/mark-studio/releases/latest).
+Download the latest macOS, Windows, Linux, or source package from the repository's **Releases** tab.
 
 ## Use
 
