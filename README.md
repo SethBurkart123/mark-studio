@@ -1,11 +1,15 @@
 # Mark Studio
 
 <p align="center">
+  <img src="docs/images/vevor-dot-peen.jpg" alt="VEVOR 400 W dot-peen marking machine used to validate Mark Studio" width="48%">
   <img src="docs/images/marked-floorboard.jpg" alt="A dot-peen mark on a floorboard offcut" width="48%">
-  <img src="docs/images/workspace.png" alt="Mark Studio workspace" width="48%">
 </p>
 
-An offline desktop app for preparing artwork and controlling compatible VEVOR / ThorX6-style USB dot-peen engravers. It imports line art, locates a workpiece from two corners, previews placement with the pin off, and marks one pass only after a matching preview.
+An offline desktop app for preparing artwork and controlling compatible VEVOR / ThorX6-style USB dot-peen engravers. The VEVOR 400 W machine shown above is the hardware used to validate Mark Studio. It imports line art, locates a workpiece from two corners, previews placement with the pin off, and marks one pass only after a matching preview.
+
+<p align="center">
+  <img src="docs/images/workspace.png" alt="Mark Studio workspace" width="78%">
+</p>
 
 This project is independent and is not affiliated with or endorsed by VEVOR. Compatible hardware includes VEVOR's official [200 × 150 mm](https://www.vevor.com/marking-machine-c_10477/400w-electric-metal-marking-engraving-machine-200x150mm-50mm-s-nameplate-110v-us-p_010564478831) and [300 × 200 mm](https://www.vevor.com/marking-machine-c_10477/vevor-400w-electric-dot-peen-marking-machine-300x200mm-50mm-s-serial-number-code-p_010594104012) 400 W dot-peen machines. Confirm your own machine's travel before use.
 
